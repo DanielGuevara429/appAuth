@@ -43,8 +43,8 @@ export class LoginComponent implements OnInit {
 
     if (this.loginForm.valid) {
       const params: LoginRequest = {
-        username: this.loginForm.get('username').value,
-        password: this.loginForm.get('password').value
+        username: this.loginForm.get('username')!.value,
+        password: this.loginForm.get('password')!.value
       };
 
       this.authService.authenticate(params).subscribe(
