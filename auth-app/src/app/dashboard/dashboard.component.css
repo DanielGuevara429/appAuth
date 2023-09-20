@@ -1,0 +1,62 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.logout-btn {
+    margin-top: 20px;
+}
+
+.card-body{
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.card-1{
+    background-color: #252B48;
+    font-size: 5rem;
+    color: white;
+}
+
+.card-2{
+    background-color: #5B9A8B;
+    font-size: 5rem;
+    color: white;
+}
+
+.card-3{
+    background-color: #445069;
+    font-size: 5rem;
+    color: white;
+}
+
+.card-4{
+    background-color: #9400FF;
+    font-size: 5rem;
+    color: white;
+}
+
+.navbar-toggler-icon{
+    background-color: transparent !important;
+}
